@@ -16,5 +16,5 @@ try {
     }
   }).listen(8545);
 } catch (e) {
-  console.log("Error occured, is ganache running on port 8546?")
+  console.log("Error occured, is ganache running on port 8546?", e)
 }
