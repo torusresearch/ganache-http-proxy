@@ -11,8 +11,8 @@ try {
       port: 8546
     },
     ssl: {
-      key: fs.readFileSync('./server.key', 'utf8'),
-      cert: fs.readFileSync('./server.cert', 'utf8')
+      key: fs.readFileSync(__dirname+'/server.key', 'utf8'),
+      cert: fs.readFileSync(__dirname+'/server.cert', 'utf8')
     }
   }).listen(8545);
 } catch (e) {
