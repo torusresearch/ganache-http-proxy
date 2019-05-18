@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
+
 var fs = require('fs');
-var http = require('http'),
-    httpProxy = require('http-proxy');
+var httpProxy = require('http-proxy');
 
 httpProxy.createServer({
   target: {
