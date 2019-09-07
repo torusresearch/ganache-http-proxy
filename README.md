@@ -4,7 +4,7 @@
 
 1. Installing and running ganache-http-proxy
 ```sh
-npm install -g ganache-http proxy
+npm install -g ganache-http-proxy
 ganache-http-proxy
 ```
 
