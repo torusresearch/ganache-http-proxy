@@ -25,15 +25,58 @@ try {
       httpProxy
         .createServer({
           target: {
-            host: "localhost",
-            port: 8546
+            host: "3.112.248.50"
           },
           ssl: {
             key: cert.key,
             cert: cert.cert
           }
         })
-        .listen(8545);
+        .listen(5000);
+        httpProxy
+        .createServer({
+          target: {
+            host: "13.113.137.8"
+          },
+          ssl: {
+            key: cert.key,
+            cert: cert.cert
+          }
+        })
+        .listen(5001);
+        httpProxy
+        .createServer({
+          target: {
+            host: "3.112.7.31"
+          },
+          ssl: {
+            key: cert.key,
+            cert: cert.cert
+          }
+        })
+        .listen(5002);
+        httpProxy
+        .createServer({
+          target: {
+            host: "18.179.12.221"
+          },
+          ssl: {
+            key: cert.key,
+            cert: cert.cert
+          }
+        })
+        .listen(5003);
+        httpProxy
+        .createServer({
+          target: {
+            host: "52.68.222.184"
+          },
+          ssl: {
+            key: cert.key,
+            cert: cert.cert
+          }
+        })
+        .listen(5004);
     });
 } catch (e) {
   console.log("Error occured, is ganache running on port 8546?");
