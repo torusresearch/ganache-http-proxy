@@ -36,7 +36,7 @@ try {
         httpProxy
         .createServer({
           target: {
-            host: "13.113.137.8"
+            host: "3.112.7.31"
           },
           ssl: {
             key: cert.key,
@@ -47,7 +47,7 @@ try {
         httpProxy
         .createServer({
           target: {
-            host: "3.112.7.31"
+            host: "13.113.137.8"
           },
           ssl: {
             key: cert.key,
@@ -58,7 +58,7 @@ try {
         httpProxy
         .createServer({
           target: {
-            host: "18.179.12.221"
+            host: "52.68.222.184"
           },
           ssl: {
             key: cert.key,
@@ -69,7 +69,7 @@ try {
         httpProxy
         .createServer({
           target: {
-            host: "52.68.222.184"
+            host: "18.179.12.221"
           },
           ssl: {
             key: cert.key,
