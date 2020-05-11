@@ -10,7 +10,7 @@ ganache-http-proxy
 
 2. Running Ganache on port 8546
 ```sh
-ganache-cli -p 8546
+ganache-cli -p 8546 -h 0.0.0.0
 ```
 
 3. Accept localhost certificates in your browser
